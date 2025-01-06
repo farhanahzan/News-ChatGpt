@@ -118,7 +118,7 @@ playwright install
 Run the scraper to collect news articles and save them to `news.json`:
 
 ```bash
-python dailymirror.py
+python3 dailymirror.py
 ```
 
 ### 4. Load Data into Supabase
@@ -126,7 +126,7 @@ python dailymirror.py
 Upload the news data from `news.json` to the Supabase `news` table:
 
 ```bash
-python load_news_data.py
+python3 load_news_data.py
 ```
 
 ### 5. Generate Embeddings
@@ -134,7 +134,7 @@ python load_news_data.py
 Create embeddings for the news articles and save them in the Supabase database:
 
 ```bash
-python generate_embeddings.py
+python3 generate_embeddings.py
 ```
 
 ### 6. Start the Chatbot
@@ -142,7 +142,7 @@ python generate_embeddings.py
 Run the chatbot interface to query news articles:
 
 ```bash
-python chatbot.py
+python3 chatbot.py
 ```
 
 ---
