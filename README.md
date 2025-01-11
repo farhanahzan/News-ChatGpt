@@ -79,7 +79,7 @@ CREATE TABLE news (
     title TEXT NOT NULL,
     description TEXT NOT NULL,
     date DATE NOT NULL,
-    category TEXT NOT NULL
+    category TEXT NOT NULL,
     url TEXT NOT NULL
 );
 
